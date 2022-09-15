@@ -59,3 +59,11 @@ div.cover > .col-sm-2 {
     height: 200px;
     width: 200px;
 }
+.click > a {
+    font-size: 28px;
+    color: rgb(23, 89, 133);
+}
+.info {
+    color: black;
+    text-align: center;
+}
