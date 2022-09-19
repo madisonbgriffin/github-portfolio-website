@@ -55,7 +55,7 @@ div.cover > .col-sm-2 {
 .front-nav-3 {
     background-color: #80598d;
 }
-.col-sm-3 > img {
+.thumbnail > img {
     height: 200px;
     width: 200px;
 }
@@ -66,4 +66,10 @@ div.cover > .col-sm-2 {
 .info {
     color: black;
     text-align: center;
+}
+th {
+    background-color: #96858F; 
+}
+td {
+    padding: 15px;
 }
