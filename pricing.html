@@ -18,12 +18,32 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div class="container-fluid click">
-            <a href="index.html"><h2>Home</h2></a>
-            <a href="gallery.html"><h2>Galleries</h2></a>
-            <a href="pricing.html"><h2>Pricing</h2></a>
-            <a href="contact.html"><button type="button" class="btn btn-primary btn-sm disabled"><span class="glyphicon glyphicon-exclamation-sign"></span>Contact Me!</button></a>
-        </div>
+         <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span>Madison's Portfolio</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="pricing.html">Pricing</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Galleries <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="gallery.html">All Galleries</a></li>
+                            <li class="divider"></li>
+                            <li><a href="castle-gallery.html">Castles</a></li>
+                            <li><a href="#">Dogs</a></li>
+                            <li><a href="#">Soccer Photos</a></li
+                            ><li><a href="#">Nature</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 page-header">
